@@ -39,6 +39,13 @@ Listado de Componentes de la API
   * [categories Controller](#item28)
   * [categories Module](#item29)
   * [categories Service](#item30)
+* [Clientes](#item31)
+  * [dto](#item32)
+  * [entities](#item33)
+  * [error](#item34)
+  * [clientes Controller](#item35)
+  * [clientes Module](#item36)
+  * [clientes Service](#item37)
   
 <a name="item1"></a>
 ## Admins
@@ -143,3 +150,28 @@ Se encarga de definir los decoradores utilizados para el manejo de los datos de 
 <a name="item30"></a>
 #### Categories Service
 Manejamos la logica de negocio del categoria en nuestro sistema.
+
+<a name="item31"></a>
+## Clientes
+Contiene los archivos que van a ejecutar los datos de las entidades de la base de datos.
+
+ <dl>
+  <dt name="item32">dto</dt>
+  <dd>Este archivo se encarga de los datos de traferencia entre el backend del lado de administardor y el frontend donde el     administrador se encarga de realizar el manejo del sistema.</dd>
+  <dt name="item33">entities</dt>
+  <dd>Aqui podemos definir las entidades y sus tipos de datos que se maneja en la tabla relacionada.</dd>
+  <dt name="item34">error</dt>
+  <dd>Aqui almacenamos un archivo llamado clientes not found exception donde colocamos el mesaje de validacion si se presenta un error.</em>.</dd>
+</dl>
+
+<a name="item35"></a>
+#### Clientes Controller
+Maneja las solicitudes entrantes y de respuesta del sistema, ya que en el archivo definimos las rutas programadas para la logica de la tabla cliente.
+
+<a name="item36"></a>
+#### Clientes Module
+Se encarga de definir los decoradores utilizados para el manejo de los datos de clientes. 
+
+<a name="item37"></a>
+#### Clientes Service
+Manejamos la logica de negocio de clientes en el sistema de marketplace.
