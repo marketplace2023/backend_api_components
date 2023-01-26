@@ -20,22 +20,16 @@ Listado de Componentes de la API
 <a name="item1"></a>
 ## Admins
 Consiste en almacenar los datos personales del administrador de sistema.
-
  <dl>
-  <dt name="item2">Dto</dt>
-  <dd>Este archivo se encarga de los datos de traferencia entre el backend del lado de administardor y el frontend donde el administrador se encarga de realizar el manejo del sistema.</dd>
+  <dt name="item2">dto</dt>
+  <dd>Este archivo se encarga de los datos de traferencia entre el backend del lado de administardor y el frontend donde el    administrador se encarga de realizar el manejo del sistema.</dd>
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  <dt name="item3">entities</dt>
+  <dd>Aqui podemos definir el tipo de recurso que se maneja en la tabla relacionada.</dd>
+  
+  <dt name="item4">entities</dt>
+  <dd>Aqui almacenamos un archivo llamado admins not found exception donde colocamos el mesaje de validacion si se presenta un error.</em>.</dd>
 </dl>
-
-<a name="item3"></a>
-#### entities
-Aqui podemos definir el tipo de recurso que se maneja en la tabla relacionada.
-
-<a name="item4"></a>
-#### error
-Aqui almacenamos un archivo llamado admins not found exception donde colocamos el mesaje de validacion si se presenta un error.
 
 <a name="item5"></a>
 #### Admins Controller
