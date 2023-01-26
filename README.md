@@ -82,7 +82,7 @@ Definimos los decoradores utilizados para el manejo de los datos del administrad
 Manejamos la logica del funcionamiento del administrador en nuestro sistema.
 
 <a name="item15"></a>
-## Ayuda
+## Categories
 Consiste en almacenar los datos personales del administrador de sistema.
 
  <dl>
@@ -95,13 +95,13 @@ Consiste en almacenar los datos personales del administrador de sistema.
 </dl>
 
 <a name="item19"></a>
-#### Ayuda Controller
+#### Categories Controller
 Este archivo es el encargado de manejar las solicitudes entrantes y devuelve las respuesta adecuada, ya que en el archivo definimos las rutas programadas.
 
 <a name="item20"></a>
-#### Ayuda Module
+#### Categories Module
 Definimos los decoradores utilizados para el manejo de los datos del administrador. 
 
 <a name="item21"></a>
-#### Ayuda Service
+#### Categories Service
 Manejamos la logica del funcionamiento del administrador en nuestro sistema.
