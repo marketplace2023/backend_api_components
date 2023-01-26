@@ -30,7 +30,7 @@ Listado de Componentes de la API
   * [categories Controller](#item19)
   * [categories Module](#item20)
   * [categories Service](#item21)
-  * 
+  
 <a name="item1"></a>
 ## Admins
 Consiste en almacenar los datos personales del administrador de sistema.
