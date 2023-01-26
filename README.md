@@ -23,25 +23,25 @@ Consiste en almacenar los datos personales del administrador de sistema.
 
 <a name="item2"></a>
 #### dto
-CardImage es un card componente donde por un parametro se coloca Imagen titulo precio y boton 
+Este archivo se encarga de los datos de traferencia entre el backend del lado de administardor y el frontend donde el administrador se encarga de realizar el manejo del sistema.
 
 <a name="item3"></a>
 #### entities
-CardImage es un card componente donde por un parametro se coloca Imagen titulo precio y boton 
+Aqui podemos definir el tipo de recurso que se maneja en la tabla relacionada.
 
 <a name="item4"></a>
 #### error
-CardImage es un card componente donde por un parametro se coloca Imagen titulo precio y boton 
+Aqui almacenamos un archivo llamado admins not found exception donde colocamos el mesaje de validacion si se presenta un error.
 
 <a name="item5"></a>
 #### Admins Controller
-CardImage es un card componente donde por un parametro se coloca Imagen titulo precio y boton 
+Este archivo es el encargado de manejar las solicitudes entrantes y devuelve las respuesta adecuada, ya que en el archivo definimos las rutas programadas.
 
 <a name="item6"></a>
 #### Admins Module
-CardImage es un card componente donde por un parametro se coloca Imagen titulo precio y boton 
+Definimos los decoradores utilizados para el manejo de los datos del administrador. 
 
 <a name="item7"></a>
 #### Admins Service
-CardImage es un card componente donde por un parametro se coloca Imagen titulo precio y boton 
+Manejamos la logica del funcionamiento del administrador en nuestro sistema.
 
