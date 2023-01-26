@@ -27,7 +27,7 @@ Consiste en almacenar los datos personales del administrador de sistema.
   <dt name="item3">entities</dt>
   <dd>Aqui podemos definir el tipo de recurso que se maneja en la tabla relacionada.</dd>
   
-  <dt name="item4">entities</dt>
+  <dt name="item4">error</dt>
   <dd>Aqui almacenamos un archivo llamado admins not found exception donde colocamos el mesaje de validacion si se presenta un error.</em>.</dd>
 </dl>
 
