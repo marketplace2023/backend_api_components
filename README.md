@@ -67,19 +67,19 @@ Manejamos la logica del funcionamiento del administrador en nuestro sistema.
 
 <a name="item8"></a>
 ## Auth
-Esta carpeta es la encargada de almacenar todo lo referente al codigo y la logica de negocio del funcionamiento de la ayuda.
+Esta carpeta es la encargada de almacenar todo lo relacionado a la autenticación y autorización de los datos de "usuario-cliente-administardor"
 
  <dl>
- <dt name="item9">decorator</dt>
-  <dd>Aqui se almacena los datos de traferencia entre el backend de lado dela logica de la ayuda y el frontend donde el    el usuario podrar visualizar la ayuda seleccionada.</dd>
+  <dt name="item9">decorator</dt>
+  <dd>En esta carpeta tenemos un archivo llamado roles, es el encargado del metadata del archivo.</dd>
   <dt name="item10">dto</dt>
-  <dd>Aqui se almacena los datos de traferencia entre el backend de lado dela logica de la ayuda y el frontend donde el    el usuario podrar visualizar la ayuda seleccionada.</dd>
+  <dd>Almacenamos los achivos de datos de transferencia entre la parte del backend del login, registro de administrador de la parte de la autenticación y autorización de ingreso del marketplace.</dd>
   <dt name="item11">error</dt>
-  <dd>Aqui podemos definir el tipo de recurso que se maneja en la tabla relacionada.</dd>
+  <dd>Aqui almacenamos un archivo llamado "invalidar credenciales exception" donde colocamos el mensaje de validación, si el sistema presenta un error.</dd>
   <dt name="item12">guards</dt>
-  <dd>Aqui almacenamos un archivo llamado admins not found exception donde colocamos el mesaje de validacion si se presenta un error.</dd>
+  <dd>Almacenamos los archivos que nos permite guardar y verificar la verificación de autenticación de los roles del usuario que se esten registrando en el sistema del marketplace.</dd>
   <dt name="item13">passport-strategies</dt>
-  <dd>Aqui almacenamos un archivo llamado admins not found exception donde colocamos el mesaje de validacion si se presenta un error.</em>.</dd>
+  <dd>Aqui en el archivo de local strategy validamos el role del usuario si esta inactive, banned o si el usuario no existe.</em>.</dd>
 </dl>
 
 <a name="item14"></a>
