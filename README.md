@@ -21,9 +21,13 @@ Listado de Componentes de la API
 ## Admins
 Consiste en almacenar los datos personales del administrador de sistema.
 
-<a name="item2"></a>
-#### dto
-Este archivo se encarga de los datos de traferencia entre el backend del lado de administardor y el frontend donde el administrador se encarga de realizar el manejo del sistema.
+ <dl>
+  <dt name="item2">Dto</dt>
+  <dd>Este archivo se encarga de los datos de traferencia entre el backend del lado de administardor y el frontend donde el administrador se encarga de realizar el manejo del sistema.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
 
 <a name="item3"></a>
 #### entities
