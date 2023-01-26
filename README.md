@@ -34,13 +34,12 @@ Listado de Componentes de la API
 <a name="item1"></a>
 ## Admins
 Consiste en almacenar los datos personales del administrador de sistema.
+
  <dl>
   <dt name="item2">dto</dt>
   <dd>Este archivo se encarga de los datos de traferencia entre el backend del lado de administardor y el frontend donde el    administrador se encarga de realizar el manejo del sistema.</dd>
-
   <dt name="item3">entities</dt>
   <dd>Aqui podemos definir el tipo de recurso que se maneja en la tabla relacionada.</dd>
-  
   <dt name="item4">error</dt>
   <dd>Aqui almacenamos un archivo llamado admins not found exception donde colocamos el mesaje de validacion si se presenta un error.</em>.</dd>
 </dl>
@@ -57,3 +56,27 @@ Definimos los decoradores utilizados para el manejo de los datos del administrad
 #### Admins Service
 Manejamos la logica del funcionamiento del administrador en nuestro sistema.
 
+<a name="item8"></a>
+## Admins
+Consiste en almacenar los datos personales del administrador de sistema.
+
+ <dl>
+  <dt name="item9">dto</dt>
+  <dd>Este archivo se encarga de los datos de traferencia entre el backend del lado de administardor y el frontend donde el    administrador se encarga de realizar el manejo del sistema.</dd>
+  <dt name="item10">entities</dt>
+  <dd>Aqui podemos definir el tipo de recurso que se maneja en la tabla relacionada.</dd>
+  <dt name="item11">error</dt>
+  <dd>Aqui almacenamos un archivo llamado admins not found exception donde colocamos el mesaje de validacion si se presenta un error.</em>.</dd>
+</dl>
+
+<a name="item12"></a>
+#### Admins Controller
+Este archivo es el encargado de manejar las solicitudes entrantes y devuelve las respuesta adecuada, ya que en el archivo definimos las rutas programadas.
+
+<a name="item13"></a>
+#### Admins Module
+Definimos los decoradores utilizados para el manejo de los datos del administrador. 
+
+<a name="item14"></a>
+#### Admins Service
+Manejamos la logica del funcionamiento del administrador en nuestro sistema.
