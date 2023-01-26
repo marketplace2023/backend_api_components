@@ -16,7 +16,21 @@ Listado de Componentes de la API
   * [admins Controller](#item5)
   * [admins Module](#item6)
   * [admins Service](#item7)
-
+* [Ayuda](#item8)
+  * [dto](#item9)
+  * [entities](#item10)
+  * [error](#item11)
+  * [ayuda Controller](#item12)
+  * [ayuda Module](#item13)
+  * [ayuda Service](#item14)
+* [Categories](#item15)
+  * [dto](#item16)
+  * [entities](#item17)
+  * [error](#item18)
+  * [categories Controller](#item19)
+  * [categories Module](#item20)
+  * [categories Service](#item21)
+  * 
 <a name="item1"></a>
 ## Admins
 Consiste en almacenar los datos personales del administrador de sistema.
