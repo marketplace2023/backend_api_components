@@ -84,15 +84,15 @@ Esta carpeta es la encargada de almacenar todo lo relacionado a la autenticació
 
 <a name="item14"></a>
 #### Auth Controller
-Este controlador es el encargado de manejar las solicitudes entrantes donde devuelve las respuesta adecuada, ya que en el archivo definimos las rutas para las solicitudes de todo lo relacionado con programas de ayuda.
+Este controlador es el encargado de manejar las solicitudes entrantes donde devuelve las respuesta adecuada, ya que en el archivo definimos las rutas para las solicitudes de todo lo relacionado con la parte logis de usuario y registro del marketplace.
 
 <a name="item15"></a>
 #### Auth Module
-Manejo de los decoradores utilizados para el manejo de los datos de las ayudas creadas en el marketplace. 
+Manejo de los decoradores y la parte de la autenticación de usuario, clientes, tienda y admis del marketplace utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de las tablas anteriormente mencionadas. 
 
 <a name="item16"></a>
 #### Auth Service
-Aquí en este archivo se maneja la logica del funcionamiento de de negocio de la ayuda.
+Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación y autenticación de usuario.
 
 <a name="item15"></a>
 ## Ayuda
