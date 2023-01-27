@@ -314,7 +314,7 @@ Manejamos la logica de negocio de delivery notas en el sistema de marketplace.
 
 <a name="item66"></a>
 ## Delivery-Type-Metodo
-En esta .
+En esta carpeta contiene todo los archivos relacionado con el tipo de método del delivery. 
 
  <dl>
   <dt name="item67">dto</dt>
