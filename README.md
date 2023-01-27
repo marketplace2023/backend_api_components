@@ -95,6 +95,13 @@ Listado de Componentes de la API
   * [favorito-tienda Controller](#item84)
   * [favorito-tienda Module](#item85)
   * [favorito-tienda Service](#item86)
+* [Marca](#item87)
+  * [dto](#item88)
+  * [entities](#item89)
+  * [error](#item90)
+  * [marca Controller](#item91)
+  * [marca Module](#item92)
+  * [marca Service](#item93)
   
 <a name="item1"></a>
 ## Admins
