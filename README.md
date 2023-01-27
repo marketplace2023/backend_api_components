@@ -353,49 +353,52 @@ Programamos la logica de negocio del delivery type metodo en el sistema de marke
 
 <a name="item73"></a>
 ## Favorito
-
+En esta carpeta podemos almacenar los productos y tiendas favoritos que ha selecionado el usuario.
  <dl>
   <dt name="item74">dto</dt>
-  <dd></dd>
+  <dd>En el archivo create-favorito es el encargado de los datos de transferencia de creación entre el backend y el frontend donde el usuario es el encargado de realizar el manejo del sistema. </dd>
   <dt name="item75">entities</dt>
-  <dd></dd>
+  <dd>Aquí tenemos un .ts llamado favorito.entity encargado de almacenar los datos de las entidades relacionada a la tabla correspondiente a favorito donde se almacena lo solicitado para su petición.</dd>
   <dt name="item76">enum</dt>
-  <dd></dd>
+  <dd>En esta carpeta podemos encontrar dos archivos "favorito-reaccion.enum.ts y favorito-type.enum.ts" uno donde almacenamos la reación entre el producto y el cliente. </dd>
   <dt name="item77">error</dt>
-  <dd></em></dd>
+  <dd>n esta carpeta podemos encontrar los archivos favorito del producto donde colocamos la validación de esos archivos si se presenta que ya el producto seleccionado como favorito ya le pretenece a ese cliente en particular</em>.</dd>
 </dl>
 
 <a name="item78"></a>
 #### Favorito Controller  
+El controlador del método de favorito cliente es el encargado de la solicitudes de entrada y respuesta sobre el método de favorito del producto.  
 
 <a name="item79"></a>
 #### Favorito Module
+Manejo de los decoradores utilizados para el control de los datos favoritos correspondiente a las productos del marketplace. 
 
 <a name="item80"></a>
 #### Favorito Service
+Programamos la lógica de negocio sobre las productos favoritos en el sistema de marketplace.
 
 <a name="item81"></a>
 ## Favorito Tienda
 
  <dl>
   <dt name="item82">dto</dt>
-  <dd></dd>
+  <dd>En el archivo create-favorito-tiendas es el encargado de los datos de transferencia de creación entre el backend y el frontend donde el usuario es el encargado de realizar el manejo del sistema. </dd>
   <dt name="item83">entities</dt>
-  <dd></dd>
-  <dt name="item84">enum</dt>
-  <dd></dd>
-  <dt name="item85">error</dt>
-  <dd></em></dd>
+  <dd>Aquí tenemos un .ts llamado favorito-tiendas.entity encargado de almacenar los datos de las entidades relacionada a la tabla correspondiente a favorito-tienda donde se almacena lo solicitado para su petición.</dd>
 </dl>
 
-<a name="item86"></a>
+<a name="item84"></a>
 #### Favorito Tienda Controller  
+El controlador del método de favorito tienda es el encargado de la solicitudes de entrada y respuesta sobre el método de favorito de la tienda. 
 
-<a name="item87"></a>
+<a name="item85"></a>
 #### Favorito Tienda Module
+Manejo de los decoradores utilizados para el control de los datos favoritos correspondiente a las tiendas del marketplace. 
 
-<a name="item88"></a>
+<a name="item86"></a>
 #### Favorito Tienda Service
+Programamos la lógica de negocio sobre las tiendas favoritas en el sistema de marketplace.
+
 
 
 
