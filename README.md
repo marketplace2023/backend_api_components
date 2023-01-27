@@ -53,6 +53,13 @@ Listado de Componentes de la API
   * [clientes-rating Controller](#item42)
   * [clientes-rating Module](#item43)
   * [clientes-rating Service](#item44)
+* [Contacto](#item45)
+  * [dto](#item46)
+  * [entities](#item47)
+  * [error](#item48)
+  * [contacto Controller](#item49)
+  * [contacto Module](#item50)
+  * [contacto Service](#item51)
   
 <a name="item1"></a>
 ## Admins
@@ -60,7 +67,7 @@ Consiste en almacenar los datos de la logica del negocio para el almacenamiento 
 
  <dl>
   <dt name="item2">dto</dt>
-  <dd>Este archivo se encarga de los datos de traferencia entre el backend del lado de administardor y el frontend donde el    administrador se encarga de realizar el manejo del sistema.</dd>
+  <dd>Este archivo se encarga de los datos de transferencia entre el backend del lado de administardor y el frontend donde el    administrador se encarga de realizar el manejo del sistema.</dd>
   <dt name="item3">entities</dt>
   <dd>Aqui podemos definir el tipo de recurso que se maneja en la tabla relacionada.</dd>
   <dt name="item4">error</dt>
@@ -108,13 +115,13 @@ Manejo de los decoradores y la parte de la autenticación de usuario, clientes, 
 #### Auth Service
 Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación y autenticación de usuario.
 
-<a name="item15"></a>
+<a name="item17"></a>
 ## Ayuda
 Esta carpeta es la encargada de almacenar todo lo referente al codigo y la logica de negocio del funcionamiento de la ayuda.
 
  <dl>
   <dt name="item18">dto</dt>
-  <dd>Aqui se almacena los datos de traferencia entre el backend de lado dela logica de la ayuda y el frontend donde el    el usuario podrar visualizar la ayuda seleccionada.</dd>
+  <dd>Aqui se almacena los datos de transferencia entre el backend de lado dela logica de la ayuda y el frontend donde el    el usuario podrar visualizar la ayuda seleccionada.</dd>
   <dt name="item19">entities</dt>
   <dd>Aqui podemos definir el tipo de recurso que se maneja en la tabla relacionada.</dd>
   <dt name="item20">error</dt>
@@ -139,7 +146,7 @@ Contiene los archivos que van a ejecutar los datos de las entidades de la base d
 
  <dl>
   <dt name="item25">dto</dt>
-  <dd>Este archivo se encarga de los datos de traferencia entre el backend del lado de administardor y el frontend donde el     administrador se encarga de realizar el manejo del sistema.</dd>
+  <dd>Este archivo se encarga de los datos de transferencia entre el backend del lado de administardor y el frontend donde el     administrador se encarga de realizar el manejo del sistema.</dd>
   <dt name="item26">entities</dt>
   <dd>Aqui podemos definir el tipo de recurso que se maneja en la tabla relacionada.</dd>
   <dt name="item27">error</dt>
@@ -164,7 +171,7 @@ Contiene los archivos que van a ejecutar los datos de las entidades de la base d
 
  <dl>
   <dt name="item32">dto</dt>
-  <dd>Este archivo se encarga de los datos de traferencia entre el backend del lado de administardor y el frontend donde el     administrador se encarga de realizar el manejo del sistema.</dd>
+  <dd>Este archivo se encarga de los datos de transferencia entre el backend del lado de administardor y el frontend donde el     administrador se encarga de realizar el manejo del sistema.</dd>
   <dt name="item33">entities</dt>
   <dd>Aqui podemos definir las entidades y sus tipos de datos que se maneja en la tabla relacionada.</dd>
   <dt name="item34">error</dt>
@@ -182,3 +189,55 @@ Se encarga de definir los decoradores utilizados para el manejo de los datos de 
 <a name="item37"></a>
 #### Clientes Service
 Manejamos la logica de negocio de clientes en el sistema de marketplace.
+
+<a name="item38"></a>
+## Clientes-rating
+Contiene los archivos que van a ejecutar los datos de las entidades de la base de datos con respeto a la tabla de datos de clientes rating.
+
+ <dl>
+  <dt name="item39">dto</dt>
+  <dd>Este archivo se encarga de los datos de transferencia entre el backend del lado del cliente-rating y el frontend donde el cliente se encarga de realizar el manejo del sistema.</dd>
+  <dt name="item40">entities</dt>
+  <dd>Aqui podemos definir las entidades y sus tipos de datos que se maneja en la tabla relacionada.</dd>
+  <dt name="item41">error</dt>
+  <dd>Aqui almacenamos un archivo llamado clientes rating not found exception donde colocamos el mesaje de validación si se presenta un error.</em>.</dd>
+</dl>
+
+<a name="item42"></a>
+#### Clientes-rating Controller
+Se Maneja las solicitudes entrantes y de respuesta del sistema, ya que en el archivo definimos las rutas programadas para la logica de la tabla cliente rating de nuestro marketplace.
+
+<a name="item43"></a>
+#### Clientes-rating Module
+Se encarga de definir los decoradores utilizados para el manejo de los datos de clientes rating de nuestro sistema de marketplace. 
+
+<a name="item44"></a>
+#### Clientes-rating Service
+Manejamos la logica de negocio de clientes rating en el sistema de marketplace.
+
+<a name="item45"></a>
+## Contacto
+Esta carpeta es la encargada de almacenar todo lo referente al código del funcionamiento de la logica de negocio del funcionamiento de la tabla contacto.
+
+ <dl>
+  <dt name="item46">dto</dt>
+  <dd>Aqui se almacena los datos de transferencia entre el backend de lado dela logica de la ayuda y el frontend donde el    el usuario podrar visualizar la ayuda seleccionada.</dd>
+  <dt name="item47">entities</dt>
+  <dd>en la carpeta entities podemos definir las entidades colocadas en la tabla de la base de datos y el tipo de recurso que se maneja en la tabla relacionada.</dd>
+  <dt name="item48">error</dt>
+  <dd>Aqui almacenamos un archivo llamado contacto not found exception donde colocamos el mesaje de validacion si se presenta un error en el sistema.</em>.</dd>
+</dl>
+
+<a name="item49"></a>
+#### Contacto Controller
+El controlador de contacto es el encargado de la solicitudes de entrada de mensaje y respuesta obtenida en el correo electrónico.  
+
+<a name="item50"></a>
+#### Contacto Module
+Manejo de los decoradores utilizados para el manejo de los datos de contacto del los usuarios creadas en el marketplace. 
+
+<a name="item51"></a>
+#### Contacto Service
+Aquí en este archivo se maneja la logica del funcionamiento de negocio de contacto donde se realizo el funcionamiento de la configuración del
+correo donde se van a contactar al usuario.
+
