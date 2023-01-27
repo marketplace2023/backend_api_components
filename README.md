@@ -221,7 +221,7 @@ Esta carpeta es la encargada de almacenar todo lo referente al código del funci
 
  <dl>
   <dt name="item46">dto</dt>
-  <dd>Aqui se almacena los datos de transferencia entre el backend de lado dela logica de la ayuda y el frontend donde el    el usuario podrar visualizar la ayuda seleccionada.</dd>
+  <dd>Aqui se almacena los datos de transferencia entre el backend en el lado de la logica de contacto y el frontend donde el usuario podrar visualizar el contacto a crear y enviar.</dd>
   <dt name="item47">entities</dt>
   <dd>en la carpeta entities podemos definir las entidades colocadas en la tabla de la base de datos y el tipo de recurso que se maneja en la tabla relacionada.</dd>
   <dt name="item48">error</dt>
