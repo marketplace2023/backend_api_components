@@ -60,6 +60,13 @@ Listado de Componentes de la API
   * [contacto Controller](#item49)
   * [contacto Module](#item50)
   * [contacto Service](#item51)
+* [Delivery-metodo](#item52)
+  * [dto](#item53)
+  * [entities](#item54)
+  * [error](#item55)
+  * [delivery-metodo Controller](#item56)
+  * [delivery-metodo Module](#item57)
+  * [delivery-metodo Service](#item58)
   
 <a name="item1"></a>
 ## Admins
