@@ -352,31 +352,51 @@ Manejo de los decoradores utilizados para el control de los datos de delivery-ty
 Programamos la logica de negocio del delivery type metodo en el sistema de marketplace.
 
 <a name="item73"></a>
-## Delivery-Type-Metodo
-En esta carpeta contiene todo los archivos relacionado con el tipo de método del delivery. 
+## Favorito
 
  <dl>
   <dt name="item74">dto</dt>
-  <dd>En esta carpeta se encarga de los archivos de datos de transferencia entre el backend del lado del servidor de respuesta y el frontend donde se realiza la petición lo que desea el usuario, para asi la api reciba la peticion realizada y ejecuta lo solicitado.</dd>
+  <dd></dd>
   <dt name="item75">entities</dt>
-  <dd>En esta carpeta se encarga de almacenar los datos de las entidades relacionada con la tabla de tipo de métodos del delivery con sus respectivos tipos de datos.</dd>
-  <dt name="item76">error</dt>
-  <dd>Encotramos los archivos de validación de error por medio de mensaje en el archivo de tipo de metodos del delivery.</dd>
+  <dd></dd>
+  <dt name="item76">enum</dt>
+  <dd></dd>
   <dt name="item77">error</dt>
-  <dd>Encotramos los archivos de validación de error por medio de mensaje en el archivo de tipo de metodos del delivery</em>.</dd>
+  <dd></em></dd>
 </dl>
 
 <a name="item78"></a>
-#### Delivery-Type-Metodo Controller
-El controlador del método de delivery "tipo de metodos", es el encargado de las solicitudes de entrada del delivery donde se coloca la respuesta de la nota correspondiente al delivery.  
+#### Favorito Controller  
 
 <a name="item79"></a>
-#### Delivery-Type-Metodo Module
-Manejo de los decoradores utilizados para el control de los datos de delivery-type-metodo correspondiente a metodo de delivery con el servicio que tiene el marketplace.
+#### Favorito Module
 
 <a name="item80"></a>
-#### Delivery-Type-Metodo Service
-Programamos la logica de negocio del delivery type metodo en el sistema de marketplace.
+#### Favorito Service
+
+<a name="item81"></a>
+## Favorito Tienda
+
+ <dl>
+  <dt name="item82">dto</dt>
+  <dd></dd>
+  <dt name="item83">entities</dt>
+  <dd></dd>
+  <dt name="item84">enum</dt>
+  <dd></dd>
+  <dt name="item85">error</dt>
+  <dd></em></dd>
+</dl>
+
+<a name="item86"></a>
+#### Favorito Tienda Controller  
+
+<a name="item87"></a>
+#### Favorito Tienda Module
+
+<a name="item88"></a>
+#### Favorito Tienda Service
+
 
 
 
