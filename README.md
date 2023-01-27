@@ -248,3 +248,31 @@ Manejo de los decoradores utilizados para el manejo de los datos de contacto del
 Aquí en este archivo se maneja la logica del funcionamiento de negocio de contacto donde se realizo el funcionamiento de la configuración del
 correo donde se van a contactar al usuario.
 
+<a name="item52"></a>
+## Delivery-Metodo
+En esta carpeta almacenaremos todo lo referente al delivery ya que es el que ofrece el marketplace para hacer las entregas del producto a de los clientes compran vía online en este marketplace a una empresa registrada en el sitio.
+
+ <dl>
+  <dt name="item53">dto</dt>
+  <dd>En esta carpeta se encarga de los archivos de datos de transferencia entre el backend del lado del servidor de respuesta y el frontend donde se realiza la petición lo que desea el usuario, para asi la api reciba la peticion realizada y ejecuta lo solicitado.</dd>
+  <dt name="item54">entities</dt>
+  <dd>En esta carpeta se encarga de almacenar los datos de las entidades relacionada a la table delivery con sus respectivos tipos de datos.</dd>
+  <dt name="item55">error</dt>
+  <dd>En esta carpeta podemos encontrar los archivos delivery-zona y delivery-metodo donde colocamo la validación de esos dos archivos si se presenta un error efecifico en el delivery</em>.</dd>
+</dl>
+
+<a name="item56"></a>
+#### Delivery-Metodo Controller
+El controlador del método de delivery es el encargado de la solicitudes de entrada de mensaje y respuesta sobre el método de delivery.  
+
+<a name="item57"></a>
+#### Delivery-Metodo Module
+Manejo de los decoradores utilizados para el manejo de los datos de contacto del los usuarios creadas en el marketplace. 
+
+<a name="item58"></a>
+#### Delivery-Metodo Service
+Aquí en este archivo se maneja la logica del funcionamiento de negocio de contacto donde se realizo el funcionamiento de la configuración del
+correo donde se van a contactar al usuario.
+
+
+
