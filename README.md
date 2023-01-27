@@ -60,13 +60,20 @@ Listado de Componentes de la API
   * [contacto Controller](#item49)
   * [contacto Module](#item50)
   * [contacto Service](#item51)
-* [Delivery-metodo](#item52)
+* [Delivery-Metodo](#item52)
   * [dto](#item53)
   * [entities](#item54)
   * [error](#item55)
   * [delivery-metodo Controller](#item56)
   * [delivery-metodo Module](#item57)
   * [delivery-metodo Service](#item58)
+* [Delivery-Notas](#item59)
+  * [dto](#item60)
+  * [entities](#item61)
+  * [error](#item62)
+  * [delivery-notas Controller](#item63)
+  * [delivery-notas Module](#item64)
+  * [delivery-notas Service](#item65)
   
 <a name="item1"></a>
 ## Admins
@@ -245,8 +252,7 @@ Manejo de los decoradores utilizados para el manejo de los datos de contacto del
 
 <a name="item51"></a>
 #### Contacto Service
-Aquí en este archivo se maneja la logica del funcionamiento de negocio de contacto donde se realizo el funcionamiento de la configuración del
-correo donde se van a contactar al usuario.
+Aquí en este archivo se maneja la logica del funcionamiento de negocio de contacto donde se realizo el funcionamiento de la configuración del correo donde se van a contactar al usuario.
 
 <a name="item52"></a>
 ## Delivery-Metodo
@@ -273,6 +279,33 @@ Manejo de los decoradores utilizados para el manejo de los datos de contacto del
 #### Delivery-Metodo Service
 Aquí en este archivo se maneja la logica del funcionamiento de negocio de contacto donde se realizo el funcionamiento de la configuración del
 correo donde se van a contactar al usuario.
+
+<a name="item59"></a>
+## Delivery-Notas
+En esta carpeta almacenaremos todo lo referente al delivery de notas ya que es el que ofrece el marketplace para hacer las notas de los delivery para la entrega del producto que los clientes pueden compran vía online en este marketplace a una empresa registrada en el sitio.
+
+ <dl>
+  <dt name="item60">dto</dt>
+  <dd>En esta carpeta se encarga de los archivos de datos de transferencia entre el backend del lado del servidor de respuesta y el frontend donde se realiza la petición lo que desea el usuario, para asi la api reciba la peticion realizada y ejecuta lo solicitado.</dd>
+  <dt name="item61">entities</dt>
+  <dd>En esta carpeta se encarga de almacenar los datos de las entidades relacionada a la table delivery notas con sus respectivos tipos de datos.</dd>
+  <dt name="item62">error</dt>
+  <dd>En esta carpeta podemos encontrar los archivos delivery-notas donde colocamos la validación de esos archivos si se presenta un error efecifico en el delivery en la parte de las notas</em>.</dd>
+</dl>
+
+<a name="item63"></a>
+#### Delivery-Notas Controller
+El controlador del método de delivery de nota, es el encargado de las solicitudes de entrada del delivery donde se coloca la respuesta de la nota correspondiente a la orden de entrega del producto.  
+
+<a name="item64"></a>
+#### Delivery-Notas Module
+Manejo de los decoradores utilizados para el control de los datos de la nota correspondiente a la orden de entrega con el servicio delivery del marketplace.
+
+<a name="item65"></a>
+#### Delivery-Notas Service
+Manejamos la logica de negocio de delivery notas en el sistema de marketplace.
+
+
 
 
 
