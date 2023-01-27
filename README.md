@@ -46,6 +46,13 @@ Listado de Componentes de la API
   * [clientes Controller](#item35)
   * [clientes Module](#item36)
   * [clientes Service](#item37)
+* [Clientes-rating](#item38)
+  * [dto](#item39)
+  * [entities](#item40)
+  * [error](#item41)
+  * [clientes-rating Controller](#item42)
+  * [clientes-rating Module](#item43)
+  * [clientes-rating Service](#item44)
   
 <a name="item1"></a>
 ## Admins
