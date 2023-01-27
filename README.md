@@ -74,6 +74,13 @@ Listado de Componentes de la API
   * [delivery-notas Controller](#item63)
   * [delivery-notas Module](#item64)
   * [delivery-notas Service](#item65)
+* [Delivery-Type-Metodo](#item66)
+  * [dto](#item67)
+  * [entities](#item68)
+  * [error](#item69)
+  * [delivery-type-metodo Controller](#item70)
+  * [delivery-type-metodo Module](#item71)
+  * [delivery-type-metodo Service](#item72)
   
 <a name="item1"></a>
 ## Admins
@@ -304,6 +311,32 @@ Manejo de los decoradores utilizados para el control de los datos de la nota cor
 <a name="item65"></a>
 #### Delivery-Notas Service
 Manejamos la logica de negocio de delivery notas en el sistema de marketplace.
+
+<a name="item66"></a>
+## Delivery-Type-Metodo
+En esta .
+
+ <dl>
+  <dt name="item67">dto</dt>
+  <dd>En esta carpeta se encarga de los archivos de datos de transferencia entre el backend del lado del servidor de respuesta y el frontend donde se realiza la petición lo que desea el usuario, para asi la api reciba la peticion realizada y ejecuta lo solicitado.</dd>
+  <dt name="item68">entities</dt>
+  <dd>En esta carpeta se encarga de almacenar los datos de las entidades relacionada con la tabla de tipo de métodos del delivery con sus respectivos tipos de datos.</dd>
+  <dt name="item69">error</dt>
+  <dd>Encotramos los archivos de validación de error por medio de mensaje en el archivo de tipo de metodos del delivery</em>.</dd>
+</dl>
+
+<a name="item70"></a>
+#### Delivery-Type-Metodo Controller
+El controlador del método de delivery "tipo de metodos", es el encargado de las solicitudes de entrada del delivery donde se coloca la respuesta de la nota correspondiente al delivery.  
+
+<a name="item71"></a>
+#### Delivery-Type-Metodo Module
+Manejo de los decoradores utilizados para el control de los datos de delivery-type-metodo correspondiente a metodo de delivery con el servicio que tiene el marketplace.
+
+<a name="item72"></a>
+#### Delivery-Type-Metodo Service
+Programamos la logica de negocio del delivery type metodo en el sistema de marketplace.
+
 
 
 
