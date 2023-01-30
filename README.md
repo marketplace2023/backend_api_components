@@ -146,20 +146,20 @@ Listado de Componentes de la API
   * [producto Controller](#item135)
   * [producto Module](#item136)
   * [producto Service](#item137)
-* [Producto Rating](#item131)
-  * [dto](#item132)
-  * [entities](#item133)
-  * [error](#item134)
-  * [producto-rating Controller](#item135)
-  * [producto-rating Module](#item136)
-  * [producto-rating Service](#item137)
-* [Publicidad](#item138)
+* [Producto Rating](#item138)
   * [dto](#item139)
   * [entities](#item140)
   * [error](#item141)
-  * [publicidad Controller](#item142)
-  * [publicidad Module](#item143)
-  * [publicidad Service](#item144)
+  * [producto-rating Controller](#item142)
+  * [producto-rating Module](#item143)
+  * [producto-rating Service](#item144)
+* [Publicidad](#item145)
+  * [dto](#item146)
+  * [entities](#item147)
+  * [error](#item148)
+  * [publicidad Controller](#item149)
+  * [publicidad Module](#item150)
+  * [publicidad Service](#item151)
   
 <a name="item1"></a>
 ## Admins
@@ -524,168 +524,170 @@ En esta carpeta podemos almacenar los código correspondiente de notificación c
   <dd>En esta carpeta dto es la encargada de las entrada y salida de las notificaciones que recibe el usuario en el marketplace.</dd>
   <dt name="item104">entities</dt>
   <dd>Aquí en esta carperta tenemos un documento notificacion.entity.ts donde nos permite almacenar  los campos con sus tipo de datos que estan definidos en la base de dato.</dd>
-  <dt name="item105">error</dt>
+ <dt name="item105">enum</dt>
+  <dd>En esta carpeta podemos encontrar un archivos "notificacion.enum.ts uno donde almacenamos la reación entre mensaje de usuario.</dd>
+  <dt name="item106">error</dt>
   <dd>En cambio en la carpeta error tenemos un archivo llamado notificación not found exception donde tenemos un constructor que valida un mensaje donde nos epecifica si existe o no la notificación.</em>.</dd>
 </dl>
 
-<a name="item106"></a>
+<a name="item107"></a>
 #### Notificación Controller
 Este archivo como lo especifica bien que es un controller es que es la pienza principal del marketplace, ya que básicamente nos sirven para dar soporte o respuesta a las notificaciones de entrada del usuario que se realiza al servidor para obtener la respuesta del mensaje que se recibio.
 
-<a name="item107"></a>
+<a name="item108"></a>
 #### Notificación Module
 Aquí podemos almacenar los decoradores que nos sirven para agrupar elementos del marketplace.
 
-<a name="item108"></a>
+<a name="item109"></a>
 #### Notificación Service
 Este archivo se encarga de la logica de negocio en la parte de la programación orientada a objetos en la parte de lo solicitud de petición del usuario al servidor.
 
-<a name="item109"></a>
+<a name="item110"></a>
 ## Notificación de Usuario
 En esta carpeta podemos almacenar los código correspondiente de notificación de usuario en el marketplace asi cada usuario sabe su notificación correspondiente.
 
  <dl>
-  <dt name="item110">dto</dt>
+  <dt name="item111">dto</dt>
   <dd>En esta carpeta dto es la encargada de las entrada y salida de las notificaciones de un usuario en efecifico que recibe el del marketplace.</dd>
-  <dt name="item111">entities</dt>
+  <dt name="item112">entities</dt>
   <dd>Aquí en esta carperta tenemos un documento notificacion-usuario.entity.ts donde nos permite almacenar los campos con sus tipos de datos que estan definidos en la base de dato.</dd>
-  <dt name="item112">error</dt>
+  <dt name="item113">error</dt>
   <dd>En cambio en la carpeta error tenemos un archivo llamado notificación not found exception donde tenemos un constructor que valida un mensaje donde nos epecifica si existe o no la notificación.</em>.</dd>
 </dl>
 
-<a name="item113"></a>
+<a name="item114"></a>
 #### Notificación de Usuario Controller
 Este archivo como lo especifica bien que es un controller es que es la pienza principal del marketplace, ya que básicamente nos sirven para dar soporte o respuesta a las notificaciones del usuario de un mensaje de entrada del usuario que se realiza al servidor para obtener la respuesta del mensaje que se recibio.
 
-<a name="item114"></a>
+<a name="item115"></a>
 #### Notificación de Usuario Module
 Aquí podemos almacenar los decoradores que nos sirven para agrupar elementos del marketplace.
 
-<a name="item115"></a>
+<a name="item116"></a>
 #### Notificación de Usuario Service
 En esta carpeta podemos almacenar los código correspondiente de notificación de usuario en el marketplace asi cada usuario sabe su notificación correspondiente.
 
-<a name="item116"></a>
+<a name="item117"></a>
 ## Ordenes
 Esta carpeta es la encargada de almacenar todo lo relacionado con ordenes que realice el usuario en el marketplace.
 
  <dl>
-  <dt name="item117">dto</dt>
+  <dt name="item118">dto</dt>
   <dd>Almacenamos los achivos de datos de transferencia entre la parte del backend de una orden realizada, para ontener la respuesta frontend en el marketplace.</dd>
-  <dt name="item118">entities</dt>
+  <dt name="item119">entities</dt>
   <dd>Aquí en esta carperta tenemos un documento ordenes.entity.ts donde nos permite almacenar los campos con sus tipo de datos que estan definidos en la base de dato.</dd>
- <dt name="item119">error</dt>
+ <dt name="item120">error</dt>
   <dd>Aqui almacenamos dos archivo llamado "ordenes itms not found exception y ordenes not found exception" donde colocamos el mensaje de validación, si el sistema presenta un error en la parte de ordenes y cada fila de la ordenes.</em>.</dd>
 </dl>
 
-<a name="item120"></a>
+<a name="item121"></a>
 #### Ordenes Controller
 Este controlador es el encargado de manejar las solicitudes entrantes donde devuelve las respuesta adecuada, ya que en el archivo definimos los campos para las solicitudes de todo lo relacionado con la parte de una orden de compra de un usuario del marketplace.
 
-<a name="item121"></a>
+<a name="item122"></a>
 #### Ordenes Module
 Manejo de los decoradores de una orden en el marketplace, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de las tablas ordenes y ordenes-status. 
 
-<a name="item122"></a>
+<a name="item123"></a>
 #### Ordenes Service
 Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación de la orden de compra de usuario en el marketplace.
 
-<a name="item123"></a>
+<a name="item124"></a>
 ## Ordenes Status
 Esta carpeta es la encargada de almacenar todo lo relacionado con la fila de una orden realizada por el usuario en el marketplace.
 
  <dl>
-  <dt name="item124">dto</dt>
+  <dt name="item1245">dto</dt>
   <dd>Almacenamos los achivos de datos de transferencia entre la parte del backend de una fila de una orden realizada, para ontener la respuesta frontend en el marketplace.</dd>
-  <dt name="item125">entities</dt>
+  <dt name="item126">entities</dt>
   <dd>Aquí en esta carperta tenemos un documento llamado ordenes-status.entity.ts donde nos permite almacenar los campos con sus tipo de datos que estan definidos en la base de dato.</dd>
- <dt name="item126">error</dt>
+ <dt name="item127">error</dt>
   <dd>Aqui almacenamos un archivo llamado "ordenes-status not found exception" donde colocamos el mensaje de validación, si el sistema presenta un error en la parte de ordenes realizada por el usuario para cada fila de las ordenes.</em>.</dd>
 </dl>
 
-<a name="item127"></a>
+<a name="item128"></a>
 #### Ordenes Status Controller
 Este controlador es el encargado de manejar las solicitudes entrantes donde devuelve las respuesta adecuada, ya que en el archivo definimos los campos para las solicitudes de todo lo relacionado con la parte de un status de una orden de compra de un usuario del marketplace.
 
-<a name="item128"></a>
+<a name="item129"></a>
 #### Ordenes Status Module
 Manejo de los decoradores del status de una orden en el marketplace, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de las tablas ordenes y ordenes-status. 
 
-<a name="item129"></a>
+<a name="item130"></a>
 #### Ordenes Status Service
 Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación del items de la orden de compra de usuario en el marketplace.
 
-<a name="item130"></a>
+<a name="item131"></a>
 ## Producto
 Esta carpeta es la encargada de almacenar todo los productos registrado en la tiendas del marketplace por el mismo proveedor.
 
  <dl>
-  <dt name="item131">dto</dt>
+  <dt name="item132">dto</dt>
   <dd>Almacenamos los achivos de datos de transferencia entre la parte del backend de una fila de una orden realizada, para ontener la respuesta frontend en el marketplace.</dd>
-  <dt name="item132">entities</dt>
+  <dt name="item133">entities</dt>
   <dd>Aquí en esta carperta tenemos un documento llamado ordenes-status.entity.ts donde nos permite almacenar los campos con sus tipo de datos que estan definidos en la base de dato.</dd>
- <dt name="item133">error</dt>
+ <dt name="item134">error</dt>
   <dd>Aqui almacenamos dos archivo llamado "productos not found exception" donde colocamos el mensaje de validación, si el sistema presenta un error en la parte del producto</em>.</dd>
 </dl>
 
-<a name="item134"></a>
+<a name="item135"></a>
 #### Producto Controller
 El controlador del método de producto, es el encargado de la solicitudes de entrada y respuesta sobre el producto creado en el marketplace.
 
-<a name="item135"></a>
+<a name="item136"></a>
 #### Producto Module
 Manejo de los decoradores de una lista de productos en el marketplace, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de la tabla producto. 
 
-<a name="item136"></a>
+<a name="item137"></a>
 #### Producto Service
 Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación del items de la orden de compra de usuario en el marketplace.
 
-<a name="item137"></a>
+<a name="item138"></a>
 ## Producto Categoria
 Esta carpeta es la encargada de almacenar todo lo relacionado a la tabla pivote producto-categoria de las tablas prodcutos y categorias del marketplace.
 
  <dl>
-  <dt name="item138">dto</dt>
+  <dt name="item139">dto</dt>
   <dd>Almacenamos los achivos de datos de transferencia entre la parte del backend de los productos registrado, para ontener la respuesta frontend en el marketplace.</dd>
-  <dt name="item139">entities</dt>
+  <dt name="item140">entities</dt>
   <dd>Aquí en esta carperta tenemos un documento llamado producto.entity.ts donde nos permite almacenar los campos con sus tipo de datos que estan definidos en la base de dato.</dd>
- <dt name="item140">error</dt>
+ <dt name="item141">error</dt>
   <dd>Aqui almacenamos dos archivo llamado "productos not found exception" donde colocamos el mensaje de validación, si el sistema presenta un error en la parte del producto</em>.</dd>
 </dl>
 
-<a name="item141"></a>
+<a name="item142"></a>
 #### Producto Controller
 El controlador del método de producto, es el encargado de la solicitudes de entrada y respuesta sobre el producto creado en el marketplace.
 
-<a name="item142"></a>
+<a name="item143"></a>
 #### Producto Module
 Manejo de los decoradores de una lista de productos en el marketplace, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de la tabla producto. 
 
-<a name="item143"></a>
+<a name="item144"></a>
 #### Producto Service
 Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación del items de la orden de compra de usuario en el marketplace.
 
-<a name="item144"></a>
+<a name="item145"></a>
 ## Producto Rating
 Esta carpeta es la encargada de almacenar todo lo relacionado con el producto registrado en el marketplace en esta oportunidad es el producto rating que es la valoración del producto.
 
  <dl>
-  <dt name="item145">dto</dt>
+  <dt name="item146">dto</dt>
   <dd>En esta carpeta donde podemos almacenar la trasferencia de datos entre la parte del backend de los productos registrado, para ontener la respuesta frontend en el marketplace.</dd>
-  <dt name="item146">entities</dt>
+  <dt name="item147">entities</dt>
   <dd>Aquí en esta carperta tenemos un documento llamado producto-rating.entity.ts donde nos permite almacenar los campos con sus tipo de datos que estan definidos en la base de dato.</dd>
- <dt name="item147">error</dt>
+ <dt name="item148">error</dt>
   <dd>Aqui almacenamos dos archivo llamado "productos not found exception" donde colocamos el mensaje de validación, si el sistema presenta un error en la parte del producto</em>.</dd>
 </dl>
 
-<a name="item148"></a>
+<a name="item149"></a>
 #### Producto Rating Controller
 El controlador del método de producto rating, es el encargado de la solicitudes de entrada y respuesta sobre el producto creado  para su valoración en el marketplace.
 
-<a name="item149"></a>
+<a name="item150"></a>
 #### Producto Rating Module
 aquí en este documento manejamos los decoradores de una lista de productos en el marketplace donde se almacena la valoración de producto, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de la tabla producto rating. 
 
-<a name="item150"></a>
+<a name="item151"></a>
 #### Producto Rating Service
 Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación si el producto ya se valoro "rating"
