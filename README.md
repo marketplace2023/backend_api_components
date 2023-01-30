@@ -488,7 +488,7 @@ En esta carpeta podemos almacenar los código correspondiente de notificación c
   <dt name="item103">dto</dt>
   <dd>En esta carpeta dto es la encargada de las entrada y salida de las notificaciones que recibe el usuario en el marketplace.</dd>
   <dt name="item104">entities</dt>
-  <dd>Aquí en esta carperta tenemos un documento notificacion.entity.ts donde nos permite almacenar  los campos con sus tido de datos que estan definidos en la base de dato.</dd>
+  <dd>Aquí en esta carperta tenemos un documento notificacion.entity.ts donde nos permite almacenar  los campos con sus tipo de datos que estan definidos en la base de dato.</dd>
   <dt name="item105">error</dt>
   <dd>En cambio en la carpeta error tenemos un archivo llamado notificación not found exception donde tenemos un constructor que valida un mensaje donde nos epecifica si existe o no la notificación.</em>.</dd>
 </dl>
@@ -499,30 +499,33 @@ Este archivo como lo especifica bien que es un controller es que es la pienza pr
 
 <a name="item107"></a>
 #### Notificación Module
-Aquí podemos 
+Aquí podemos almacenar los decoradores que nos sirven para agrupar elementos del marketplace.
 
-Los módulos sirven para agrupar elementos, de modo que una aplicación podrá tener varios módulos con clases altamente relacionadas entre sí. Todas las aplicaciones tienen al menos un módulo, que es el módulo raíz o módulo principal, y generalmente de este módulo principal dependerán otros módulos secundarios.
 <a name="item108"></a>
 #### Notificación Service
+Este archivo se encarga de la logica de negocio en la parte de la programación orientada a objetos en la parte de lo solicitud de petición del usuario al servidor.
 
 <a name="item102"></a>
 ## Notificación de Usuario
+En esta carpeta podemos almacenar los código correspondiente de notificación de usuario en el marketplace asi cada usuario sabe su notificación correspondiente.
 
  <dl>
   <dt name="item103">dto</dt>
-  <dd></dd>
+  <dd>En esta carpeta dto es la encargada de las entrada y salida de las notificaciones de un usuario en efecifico que recibe el del marketplace.</dd>
   <dt name="item104">entities</dt>
-  <dd></dd>
+  <dd>Aquí en esta carperta tenemos un documento notificacion-usuario.entity.ts donde nos permite almacenar los campos con sus tipos de datos que estan definidos en la base de dato.</dd>
   <dt name="item105">error</dt>
-  <dd></em>.</dd>
+  <dd>En cambio en la carpeta error tenemos un archivo llamado notificación not found exception donde tenemos un constructor que valida un mensaje donde nos epecifica si existe o no la notificación.</em>.</dd>
 </dl>
 
 <a name="item106"></a>
 #### Notificación de Usuario Controller
+Este archivo como lo especifica bien que es un controller es que es la pienza principal del marketplace, ya que básicamente nos sirven para dar soporte o respuesta a las notificaciones del usuario de un mensaje de entrada del usuario que se realiza al servidor para obtener la respuesta del mensaje que se recibio.
 
 <a name="item107"></a>
 #### Notificación de Usuario Module
+Aquí podemos almacenar los decoradores que nos sirven para agrupar elementos del marketplace.
 
 <a name="item108"></a>
 #### Notificación de Usuario Service
-
+En esta carpeta podemos almacenar los código correspondiente de notificación de usuario en el marketplace asi cada usuario sabe su notificación correspondiente.
