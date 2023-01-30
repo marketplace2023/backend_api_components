@@ -417,7 +417,7 @@ Programamos la lógica de negocio sobre las tiendas favoritas en el sistema de m
 
 <a name="item87"></a>
 ## Marca
-
+Aquí podemos encontrar el codigo de petición de la Api para el almacenamiento de los datos de las marcas.
  <dl>
   <dt name="item88">dto</dt>
   <dd>En este archivo podemos crear un dto que por lo general lleva como extensión .dto.ts para indicar que se trata de un DTO, donde tendrán los objetos de entrada en una solicitud, de creación de un dto.</dd>
@@ -440,6 +440,52 @@ Manejo de los decoradores utilizados para el control de los datos favoritos corr
 #### Marca Service
 Programamos la lógica de negocio sobre las tiendas favoritas en el sistema de marketplace.
 
+<a name="item94"></a>
+## Metodo de Pago
+En esta carpeta se encarga de almacenar el código donde nos permite comprar un producto, contratar servicios o cancelar todo tipo de deudas que se realiza en el marketplace. 
+ <dl>
+  <dt name="item95">dto</dt>
+  <dd>En este archivo podemos crear un dto que por lo general lleva como extensión un archivo .dto.ts para indicar que se trata de un DTO, donde tendrán los objetos de entrada en una solicitud, de creación de un dto.</dd>
+  <dt name="item96">entities</dt>
+  <dd> En esta carpeta tenemos un archivo .entity.ts donde nos permite almacenarlos datos especificos del la tabla metodo de pago.</dd>
+  <dt name="item97">enums</dt>
+  <dd>Aqui almacenamos un archivo llamado método de pago .enums.ts donde tenemos un codigo donde tenemos la especificación del código del metodo de pago, procesando, completado y cancelado con su respectivo código</em>.</dd>
+  <dt name="item98">error</dt>
+  <dd>Aqui almacenamos un archivo llamado metodo-pego not found exception donde colocamos el mesaje de error de validación si se presenta un errror.</em>.</dd>
+</dl>
 
+<a name="item99"></a>
+#### Método de Pago Controller  
+El controlador del método de pago es el encargado de la solicitudes de entrada y respuesta sobre el método de pago. 
+
+<a name="item100"></a>
+#### Método de Pago Module
+Manejo de los decoradores utilizados para el control de los datos método de pago de una orden realizada en el marketplace. 
+
+<a name="item101"></a>
+#### Método de Pago Service
+Programamos la lógica de negocio sobre los métodos de pago en el sistema de marketplace.
+
+
+<a name="item102"></a>
+## Notificación
+
+ <dl>
+  <dt name="item103">dto</dt>
+  <dd></dd>
+  <dt name="item104">entities</dt>
+  <dd></dd>
+  <dt name="item105">error</dt>
+  <dd></em>.</dd>
+</dl>
+
+<a name="item106"></a>
+####  Controller
+
+<a name="item107"></a>
+####  Module
+
+<a name="item108"></a>
+####  Service
 
 
