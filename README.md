@@ -102,7 +102,7 @@ Listado de Componentes de la API
   * [marca Controller](#item91)
   * [marca Module](#item92)
   * [marca Service](#item93)
-* [Metodo_pago](#item94)
+* [Método_pago](#item94)
   * [dto](#item95)
   * [entities](#item96)
   * [error](#item97)
