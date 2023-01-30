@@ -125,6 +125,27 @@ Listado de Componentes de la API
   * [notificación Controller](#item114)
   * [notificación Module](#item115)
   * [notificación Service](#item116)
+* [Ordenes](#item117)
+  * [dto](#item118)
+  * [entities](#item119)
+  * [error](#item120)
+  * [ordenes Controller](#item121)
+  * [ordenes Module](#item122)
+  * [ordenes Service](#item123)
+* [Ordenes Status](#item124)
+  * [dto](#item125)
+  * [entities](#item126)
+  * [error](#item127)
+  * [ordenes status Controller](#item128)
+  * [ordenes status Module](#item129)
+  * [ordenes status Service](#item130)
+* [Producto](#item131)
+  * [dto](#item132)
+  * [entities](#item133)
+  * [error](#item134)
+  * [producto Controller](#item135)
+  * [producto Module](#item136)
+  * [producto Service](#item137)
   
 <a name="item1"></a>
 ## Admins
@@ -529,3 +550,28 @@ Aquí podemos almacenar los decoradores que nos sirven para agrupar elementos de
 <a name="item108"></a>
 #### Notificación de Usuario Service
 En esta carpeta podemos almacenar los código correspondiente de notificación de usuario en el marketplace asi cada usuario sabe su notificación correspondiente.
+
+<a name="item8"></a>
+## Ordenes
+Esta carpeta es la encargada de almacenar todo lo relacionado a la autenticación y autorización de los datos de "usuario-cliente-administardor"
+
+ <dl>
+  <dt name="item10">dto</dt>
+  <dd>Almacenamos los achivos de datos de transferencia entre la parte del backend del login, registro de administrador de la parte de la autenticación y autorización de ingreso del marketplace.</dd>
+  <dt name="item104">entities</dt>
+  <dd>Aquí en esta carperta tenemos un documento notificacion.entity.ts donde nos permite almacenar  los campos con sus tipo de datos que estan definidos en la base de dato.</dd>
+ <dt name="item11">error</dt>
+  <dd>Aqui almacenamos un archivo llamado "invalidar credenciales exception" donde colocamos el mensaje de validación, si el sistema presenta un error.</em>.</dd>
+</dl>
+
+<a name="item14"></a>
+#### Ordenes Controller
+Este controlador es el encargado de manejar las solicitudes entrantes donde devuelve las respuesta adecuada, ya que en el archivo definimos las rutas para las solicitudes de todo lo relacionado con la parte logis de usuario y registro del marketplace.
+
+<a name="item15"></a>
+#### Ordenes Module
+Manejo de los decoradores y la parte de la autenticación de usuario, clientes, tienda y admis del marketplace utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de las tablas anteriormente mencionadas. 
+
+<a name="item16"></a>
+#### Ordenes Service
+Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación y autenticación de usuario.
