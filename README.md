@@ -196,14 +196,14 @@ Listado de Componentes de la API
 * [Usuario](#item185)
   * [dto](#item186)
   * [entities](#item187)
-  * [error](#item188)
-  * [usuario Controller](#item189)
-  * [usuario Module](#item190)
-  * [usuario Service](#item191) 
-* [Usuario Status](#item192)
-  * [dto](#item193)
-  * [entities](#item194)
-  * [enums](#item195)
+  * [enums](#item188)
+  * [error](#item189)
+  * [usuario Controller](#item190)
+  * [usuario Module](#item191)
+  * [usuario Service](#item192) 
+* [Usuario Status](#item193)
+  * [dto](#item194)
+  * [entities](#item195)
   * [error](#item196)
   * [usuario-status Controller](#item197)
   * [usuario-status Module](#item198)
@@ -855,26 +855,56 @@ Aquí en este archivo se maneja la logica del funcionamiento de negocio de la ve
   <dd></dd>
   <dt name="item187">entities</dt>
   <dd></dd>
- <dt name="item188">error</dt>
+ <dt name="item188">enums</dt>
+  <dd></dd>
+ <dt name="item189">error</dt>
   <dd></em>.</dd>
 </dl>
 
-<a name="item189"></a>
+<a name="item190"></a>
 #### Usuario Controller
 
-<a name="item189"></a>
+<a name="item191"></a>
 #### Usuario Module
 
-<a name="item190"></a>
+<a name="item192"></a>
 #### Usuario Service
 
+<a name="item193"></a>
+## Usuario Status
 
+ <dl>
+  <dt name="item194">dto</dt>
+  <dd></dd>
+  <dt name="item195">entities</dt>
+  <dd></dd>
+ <dt name="item196">error</dt>
+  <dd></em>.</dd>
+</dl>
 
+<a name="item197"></a>
+#### Usuario Status Controller
 
+<a name="item198"></a>
+#### Usuario Status Module
 
+<a name="item199"></a>
+#### Usuario Status Service
 
+<a name="item200"></a>
+## Validación
 
+<a name="item201"></a>
+## APP Controller Spec
 
+<a name="item202"></a>
+## APP Controller
 
+<a name="item203"></a>
+## APP Module
 
+<a name="item204"></a>
+## APP Service
 
+<a name="item205"></a>
+## main.ts
