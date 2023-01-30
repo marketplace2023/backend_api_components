@@ -110,6 +110,21 @@ Listado de Componentes de la API
   * [metodo-pago Controller](#item99)
   * [metodo-pago Module](#item100)
   * [metodo-pago Service](#item101)
+* [Notificación](#item102)
+  * [dto](#item103)
+  * [entities](#item104)
+  * [error](#item105)
+  * [enums](#item106)
+  * [notificación Controller](#item107)
+  * [notificación Module](#item108)
+  * [notificación Service](#item109)
+* [Notificación de Usuario](#item110)
+  * [dto](#item111)
+  * [entities](#item112)
+  * [error](#item113)
+  * [notificación Controller](#item114)
+  * [notificación Module](#item115)
+  * [notificación Service](#item116)
   
 <a name="item1"></a>
 ## Admins
@@ -466,7 +481,6 @@ Manejo de los decoradores utilizados para el control de los datos método de pag
 #### Método de Pago Service
 Programamos la lógica de negocio sobre los métodos de pago en el sistema de marketplace.
 
-
 <a name="item102"></a>
 ## Notificación
 
@@ -480,12 +494,32 @@ Programamos la lógica de negocio sobre los métodos de pago en el sistema de ma
 </dl>
 
 <a name="item106"></a>
-####  Controller
+#### Notificación Controller
 
 <a name="item107"></a>
-####  Module
+#### Notificación Module
 
 <a name="item108"></a>
-####  Service
+#### Notificación Service
 
+<a name="item102"></a>
+## Notificación de Usuario
+
+ <dl>
+  <dt name="item103">dto</dt>
+  <dd></dd>
+  <dt name="item104">entities</dt>
+  <dd></dd>
+  <dt name="item105">error</dt>
+  <dd></em>.</dd>
+</dl>
+
+<a name="item106"></a>
+#### Notificación de Usuario Controller
+
+<a name="item107"></a>
+#### Notificación de Usuario Module
+
+<a name="item108"></a>
+#### Notificación de Usuario Service
 
