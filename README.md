@@ -146,20 +146,75 @@ Listado de Componentes de la API
   * [producto Controller](#item135)
   * [producto Module](#item136)
   * [producto Service](#item137)
-* [Producto Rating](#item138)
+* [Producto Categoria](#item138)
   * [dto](#item139)
   * [entities](#item140)
   * [error](#item141)
   * [producto-rating Controller](#item142)
   * [producto-rating Module](#item143)
   * [producto-rating Service](#item144)
-* [Publicidad](#item145)
+* [Producto Rating](#item145)
   * [dto](#item146)
   * [entities](#item147)
   * [error](#item148)
-  * [publicidad Controller](#item149)
-  * [publicidad Module](#item150)
-  * [publicidad Service](#item151)
+  * [producto-rating Controller](#item149)
+  * [producto-rating Module](#item150)
+  * [producto-rating Service](#item151)
+* [Publicidad](#item152)
+  * [dto](#item153)
+  * [entities](#item154)
+  * [error](#item155)
+  * [publicidad Controller](#item156)
+  * [publicidad Module](#item157)
+  * [publicidad Service](#item158)
+* [Soporte](#item159)
+  * [paginacion](#item160)
+  * [pipes](#item161)
+  * [file-uploads](#item162)
+  * [soporte Module](#item163)
+* [Tienda](#item164)
+  * [dto](#item165)
+  * [entities](#item166)
+  * [error](#item167)
+  * [tienda Controller](#item168)
+  * [tienda Module](#item169)
+  * [tienda Service](#item170)  
+* [Tienda Rating](#item171)
+  * [dto](#item172)
+  * [entities](#item173)
+  * [error](#item174)
+  * [tienda-rating Controller](#item175)
+  * [tienda-rating Module](#item176)
+  * [tienda-rating Service](#item177) 
+* [Topico](#item178)
+  * [dto](#item179)
+  * [entities](#item180)
+  * [error](#item181)
+  * [topico Controller](#item182)
+  * [topico Module](#item183)
+  * [topico Service](#item184) 
+* [Usuario](#item185)
+  * [dto](#item186)
+  * [entities](#item187)
+  * [error](#item188)
+  * [usuario Controller](#item189)
+  * [usuario Module](#item190)
+  * [usuario Service](#item191) 
+* [Usuario Status](#item192)
+  * [dto](#item193)
+  * [entities](#item194)
+  * [enums](#item195)
+  * [error](#item196)
+  * [usuario-status Controller](#item197)
+  * [usuario-status Module](#item198)
+  * [usuario-status Service](#item199)
+* [Validación](#item200)
+* [APP Controller Spec](#item201)
+* [APP Controller](#item202)
+* [APP Modulo](#item203)
+* [APP Service](#item204)
+* [main.ts](#item205)
+
   
 <a name="item1"></a>
 ## Admins
@@ -690,4 +745,136 @@ aquí en este documento manejamos los decoradores de una lista de productos en e
 
 <a name="item151"></a>
 #### Producto Rating Service
-Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación si el producto ya se valoro "rating"
+Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación si el producto ya se valoro "rating".
+
+<a name="item152"></a>
+## Publicidad
+
+ <dl>
+  <dt name="item153">dto</dt>
+  <dd></dd>
+  <dt name="item154">entities</dt>
+  <dd></dd>
+ <dt name="item155">error</dt>
+  <dd></em>.</dd>
+</dl>
+
+<a name="item156"></a>
+#### Publicidad Controller
+
+<a name="item157"></a>
+#### Publicidad Module
+
+<a name="item158"></a>
+#### Publicidad Service
+
+<a name="item159"></a>
+## Soporte
+
+ <dl>
+  <dt name="item160">paginación</dt>
+  <dd></dd>
+  <dt name="item161">pipes</dt>
+  <dd></em>.</dd>
+</dl>
+
+<a name="item162"></a>
+#### File Uploads
+
+<a name="item163"></a>
+#### Soporte Module
+
+<a name="item164"></a>
+## Tienda
+
+ <dl>
+  <dt name="item165">dto</dt>
+  <dd></dd>
+  <dt name="item166">entities</dt>
+  <dd></dd>
+ <dt name="item167">error</dt>
+  <dd></em>.</dd>
+</dl>
+
+<a name="item168"></a>
+#### Tienda Controller
+
+<a name="item169"></a>
+#### Tienda Module
+
+<a name="item170"></a>
+#### Tienda Service
+
+<a name="item171"></a>
+## Tienda
+
+ <dl>
+  <dt name="item172">dto</dt>
+  <dd></dd>
+  <dt name="item173">entities</dt>
+  <dd></dd>
+ <dt name="item174">error</dt>
+  <dd></em>.</dd>
+</dl>
+
+<a name="item175"></a>
+#### Tienda Controller
+
+<a name="item176"></a>
+#### Tienda Module
+
+<a name="item177"></a>
+#### Tienda Service
+
+<a name="item178"></a>
+## Tópico
+
+ <dl>
+  <dt name="item179">dto</dt>
+  <dd></dd>
+  <dt name="item180">entities</dt>
+  <dd></dd>
+ <dt name="item181">error</dt>
+  <dd></em>.</dd>
+</dl>
+
+<a name="item182"></a>
+#### Tópico Controller
+
+<a name="item183"></a>
+#### Tópico Module
+
+<a name="item184"></a>
+#### Tópico Service
+
+<a name="item185"></a>
+## Usuario
+
+ <dl>
+  <dt name="item186">dto</dt>
+  <dd></dd>
+  <dt name="item187">entities</dt>
+  <dd></dd>
+ <dt name="item188">error</dt>
+  <dd></em>.</dd>
+</dl>
+
+<a name="item189"></a>
+#### Usuario Controller
+
+<a name="item189"></a>
+#### Usuario Module
+
+<a name="item190"></a>
+#### Usuario Service
+
+
+
+
+
+
+
+
+
+
+
