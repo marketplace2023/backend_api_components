@@ -749,24 +749,28 @@ Aquí en este archivo se maneja la logica del funcionamiento de negocio de la ve
 
 <a name="item152"></a>
 ## Publicidad
+En esta carpeta nos encargamos de almacenar los datos de la programación orientada a objeto con la publicidad que tendrá el marketplace.
 
  <dl>
   <dt name="item153">dto</dt>
-  <dd></dd>
+  <dd>Almacenamos los achivos de datos de transferencia entre la parte del backend del contenido de publicidad, para ontener la respuesta frontend en el marketplace.</dd>
   <dt name="item154">entities</dt>
-  <dd></dd>
+  <dd>En esta carpeta tenemos un archivo con extensión .entity.ts donde se tiene la entidad relacionada con el tipo de dato de cada campo que esta en la entidades de  la tabla de la base de datos de publicidad.</dd>
  <dt name="item155">error</dt>
-  <dd></em>.</dd>
+  <dd>En esta carpeta obtenemos un archivo not fount exception es para las validaciones de error si la publicidad fue creado o no en el marketplace</em>.</dd>
 </dl>
 
 <a name="item156"></a>
 #### Publicidad Controller
+El controlador del método de producto, es el encargado de la solicitudes de entrada y respuesta sobre el producto creado en el marketplace.
 
 <a name="item157"></a>
 #### Publicidad Module
+En esta carpeta se maneja los decoradores de las publicidades en el marketplace, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de las tablas publicidad. 
 
 <a name="item158"></a>
 #### Publicidad Service
+En esta carpeta podemos almacenar los código correspondiente de la publicidad del marketplace para el frontend.
 
 <a name="item159"></a>
 ## Soporte
@@ -906,6 +910,15 @@ Aquí en este archivo se maneja la logica del funcionamiento de negocio de la ve
 <a name="item204"></a>
 ## APP Service
 
+
+Este es el servicio que usaba el controlador. El servicio nuevamente es una clase, aunque en este caso el concepto de servicio está un poco infrautilizado, ya que tiene un simple método que devuelve una cadena. Ese método es getHello(), el que se invocó desde el controlador.
+
+Lo interesante de este servicio es que está decorado con @injectable(). Básicamente este decorador permite que este servicio se pueda enviar al constructor de los controladores, mediante la inyección de dependencias que nos ofrece NestJS.
+
 <a name="item205"></a>
 ## main.ts
+
+Este es el archivo que realiza el arranque de la aplicación. Todo comienza en el main.ts.
+
+Contiene la importación del core de NestJS y el módulo principal de la aplicación (app.module). Luego realiza el propio arranque de la aplicación con la función bootstrap().
 
