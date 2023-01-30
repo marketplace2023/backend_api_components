@@ -386,6 +386,7 @@ Programamos la lógica de negocio sobre las productos favoritos en el sistema de
 
 <a name="item81"></a>
 ## Favorito Tienda
+En esta carpeta del código de petición de la API y almacenamiento de datos obtenidos por el usuario. 
 
  <dl>
   <dt name="item82">dto</dt>
@@ -406,7 +407,30 @@ Manejo de los decoradores utilizados para el control de los datos favoritos corr
 #### Favorito Tienda Service
 Programamos la lógica de negocio sobre las tiendas favoritas en el sistema de marketplace.
 
+<a name="item87"></a>
+## Marca
 
+ <dl>
+  <dt name="item88">dto</dt>
+  <dd>En este archivo podemos crear un dto que por lo general lleva como extensión .dto.ts para indicar que se trata de un DTO, donde tendrán los objetos de entrada en una solicitud, de creación de un dto.</dd>
+  <dt name="item26">entities</dt>
+  <dd> Aquí tenemos un marca.entity.ts donde permite a los desarrolladores trabaja con datos en forma de propiedades y objetos especificos del dominio con la tabla marca y sus columnas subyacentes donde se almacenan los datos que obtenemos de la tabla marca.
+ </dd>
+  <dt name="item27">error</dt>
+  <dd>Aqui almacenamos un archivo llamado marca not found exception donde colocamos el mesaje de validación si se presenta un error.</em>.</dd>
+</dl>
+
+<a name="item91"></a>
+#### Marca Controller  
+El controlador del método de favorito tienda es el encargado de la solicitudes de entrada y respuesta sobre el método de favorito de la tienda. 
+
+<a name="item92"></a>
+#### Marca Module
+Manejo de los decoradores utilizados para el control de los datos favoritos correspondiente a las tiendas del marketplace. 
+
+<a name="item93"></a>
+#### Marca Service
+Programamos la lógica de negocio sobre las tiendas favoritas en el sistema de marketplace.
 
 
 
