@@ -102,6 +102,14 @@ Listado de Componentes de la API
   * [marca Controller](#item91)
   * [marca Module](#item92)
   * [marca Service](#item93)
+* [Metodo_pago](#item94)
+  * [dto](#item95)
+  * [entities](#item96)
+  * [error](#item97)
+  * [enums](#item98)
+  * [metodo-pago Controller](#item99)
+  * [metodo-pago Module](#item100)
+  * [metodo-pago Service](#item101)
   
 <a name="item1"></a>
 ## Admins
