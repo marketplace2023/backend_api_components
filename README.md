@@ -894,17 +894,35 @@ Aquí en este archivo se maneja la logica del funcionamiento de negocio de la ve
 <a name="item200"></a>
 ## Validación
 
+En esta carpeta se guarda la parte de la autenticación del sistema. JWT son las siglas de JSON Web Tokens. Básicamente, estos tokens son emitidos por el servidor después de la autenticación del usuario y pueden ser utilizados para otras solicitudes siempre que el token sea válido.
+El uso de JWT efectivamente puede hacer que nuestras aplicaciones sean apátridas desde el punto de vista de la autenticación.
+Vamos a utilizar la autenticación JWT de NestJS utilizando la estrategia local como base para esta aplicación. Así que voy a recomendar a ir a través de ese post y luego continuar con este.
+
 <a name="item201"></a>
 ## APP Controller Spec
+Aqui en Controller de aplicación es un parecido de Esa, de momento, es la única ruta que se podrá atender en nuestra aplicación.
+Otra cosa que vamos a destacar sobre este controlador es que usa un servicio llamado AppService. Este servicio está en otro archivo aparte que vamos a ver enseguida. Pero antes de ello queremos ver cómo este servicio es asociado al controlador.
 
 <a name="item202"></a>
 ## APP Controller
 
+Este es nuestro primer controlador de aplicación. Como quizás sepas de otros frameworks, los controladores son las piezas de software que se encargan de gestionar las solicitudes, realizando todo el trabajo necesario para gestionar el request y componer la respuesta.
+Como puedes ver, el controlador es una clase, en la que colocamos el decorador @Controller. En el código de la clase observarás que tenemos un método, precedido de otro decorador @Get, que es el que se encarga de gestionar una solicitud (request de tipo GET). Esa, de momento, es la única ruta que se podrá atender en nuestra aplicación.
+Otra cosa que vamos a destacar sobre este controlador es que usa un servicio llamado AppService. Este servicio está en otro archivo aparte que vamos a ver enseguida. Pero antes de ello queremos ver cómo este servicio es asociado al controlador.
+
 <a name="item203"></a>
 ## APP Module
+
+Es una clase, de Programación orientada a objetos, que observarás que no tiene ningún código en especial. Sin embargo está precedida de un decorador @module, que es el que hace que esta clase se comporte como un módulo de aplicación.
 
 <a name="item204"></a>
 ## APP Service
 
+Este es el servicio que usaba el controlador. El servicio nuevamente es una clase, aunque en este caso el concepto de servicio está un poco infrautilizado, ya que tiene un simple método que devuelve una cadena. Ese método es getHello(), el que se invocó desde el controlador.
+Lo interesante de este servicio es que está decorado con @injectable(). Básicamente este decorador permite que este servicio se pueda enviar al constructor de los controladores, mediante la inyección de dependencias que nos ofrece NestJS.
+
 <a name="item205"></a>
 ## main.ts
+
+Este es el archivo que realiza el arranque de la aplicación. Todo comienza en el main.ts.
+Contiene la importación del core de NestJS y el módulo principal de la aplicación (app.module). Luego realiza el propio arranque de la aplicación con la función bootstrap().
