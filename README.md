@@ -483,22 +483,25 @@ Programamos la lógica de negocio sobre los métodos de pago en el sistema de ma
 
 <a name="item102"></a>
 ## Notificación
-
+En esta carpeta podemos almacenar los código correspondiente de notificación con el marketplace.
  <dl>
   <dt name="item103">dto</dt>
-  <dd></dd>
+  <dd>En esta carpeta dto es la encargada de las entrada y salida de las notificaciones que recibe el usuario en el marketplace.</dd>
   <dt name="item104">entities</dt>
-  <dd></dd>
+  <dd>Aquí en esta carperta tenemos un documento notificacion.entity.ts donde nos permite almacenar  los campos con sus tido de datos que estan definidos en la base de dato.</dd>
   <dt name="item105">error</dt>
-  <dd></em>.</dd>
+  <dd>En cambio en la carpeta error tenemos un archivo llamado notificación not found exception donde tenemos un constructor que valida un mensaje donde nos epecifica si existe o no la notificación.</em>.</dd>
 </dl>
 
 <a name="item106"></a>
 #### Notificación Controller
+Este archivo como lo especifica bien que es un controller es que es la pienza principal del marketplace, ya que básicamente nos sirven para dar soporte o respuesta a las notificaciones de entrada del usuario que se realiza al servidor para obtener la respuesta del mensaje que se recibio.
 
 <a name="item107"></a>
 #### Notificación Module
+Aquí podemos 
 
+Los módulos sirven para agrupar elementos, de modo que una aplicación podrá tener varios módulos con clases altamente relacionadas entre sí. Todas las aplicaciones tienen al menos un módulo, que es el módulo raíz o módulo principal, y generalmente de este módulo principal dependerán otros módulos secundarios.
 <a name="item108"></a>
 #### Notificación Service
 
