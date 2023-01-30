@@ -601,3 +601,77 @@ Manejo de los decoradores del status de una orden en el marketplace, utilizado e
 #### Ordenes Status Service
 Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación del items de la orden de compra de usuario en el marketplace.
 
+<a name="item116"></a>
+## Producto
+Esta carpeta es la encargada de almacenar todo los productos registrado en la tiendas del marketplace por el mismo proveedor.
+
+ <dl>
+  <dt name="item117">dto</dt>
+  <dd>Almacenamos los achivos de datos de transferencia entre la parte del backend de una fila de una orden realizada, para ontener la respuesta frontend en el marketplace.</dd>
+  <dt name="item118">entities</dt>
+  <dd>Aquí en esta carperta tenemos un documento llamado ordenes-status.entity.ts donde nos permite almacenar los campos con sus tipo de datos que estan definidos en la base de dato.</dd>
+ <dt name="item119">error</dt>
+  <dd>Aqui almacenamos dos archivo llamado "productos not found exception" donde colocamos el mensaje de validación, si el sistema presenta un error en la parte del producto</em>.</dd>
+</dl>
+
+<a name="item120"></a>
+#### Producto Controller
+El controlador del método de producto, es el encargado de la solicitudes de entrada y respuesta sobre el producto creado en el marketplace.
+
+<a name="item121"></a>
+#### Producto Module
+Manejo de los decoradores de una lista de productos en el marketplace, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de la tabla producto. 
+
+<a name="item122"></a>
+#### Producto Service
+Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación del items de la orden de compra de usuario en el marketplace.
+
+<a name="item116"></a>
+## Producto Categoria
+Esta carpeta es la encargada de almacenar todo lo relacionado a la tabla pivote producto-categoria de las tablas prodcutos y categorias del marketplace.
+
+ <dl>
+  <dt name="item117">dto</dt>
+  <dd>Almacenamos los achivos de datos de transferencia entre la parte del backend de los productos registrado, para ontener la respuesta frontend en el marketplace.</dd>
+  <dt name="item118">entities</dt>
+  <dd>Aquí en esta carperta tenemos un documento llamado producto.entity.ts donde nos permite almacenar los campos con sus tipo de datos que estan definidos en la base de dato.</dd>
+ <dt name="item119">error</dt>
+  <dd>Aqui almacenamos dos archivo llamado "productos not found exception" donde colocamos el mensaje de validación, si el sistema presenta un error en la parte del producto</em>.</dd>
+</dl>
+
+<a name="item120"></a>
+#### Producto Controller
+El controlador del método de producto, es el encargado de la solicitudes de entrada y respuesta sobre el producto creado en el marketplace.
+
+<a name="item121"></a>
+#### Producto Module
+Manejo de los decoradores de una lista de productos en el marketplace, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de la tabla producto. 
+
+<a name="item122"></a>
+#### Producto Service
+Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación del items de la orden de compra de usuario en el marketplace.
+
+<a name="item116"></a>
+## Producto Rating
+Esta carpeta es la encargada de almacenar todo lo relacionado con el producto registrado en el marketplace en esta oportunidad es el producto rating que es la valoración del producto.
+
+ <dl>
+  <dt name="item117">dto</dt>
+  <dd>En esta carpeta donde podemos almacenar la trasferencia de datos entre la parte del backend de los productos registrado, para ontener la respuesta frontend en el marketplace.</dd>
+  <dt name="item118">entities</dt>
+  <dd>Aquí en esta carperta tenemos un documento llamado producto-rating.entity.ts donde nos permite almacenar los campos con sus tipo de datos que estan definidos en la base de dato.</dd>
+ <dt name="item119">error</dt>
+  <dd>Aqui almacenamos dos archivo llamado "productos not found exception" donde colocamos el mensaje de validación, si el sistema presenta un error en la parte del producto</em>.</dd>
+</dl>
+
+<a name="item120"></a>
+#### Producto Rating Controller
+El controlador del método de producto rating, es el encargado de la solicitudes de entrada y respuesta sobre el producto creado  para su valoración en el marketplace.
+
+<a name="item121"></a>
+#### Producto Rating Module
+aquí en este documento manejamos los decoradores de una lista de productos en el marketplace donde se almacena la valoración de producto, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de la tabla producto rating. 
+
+<a name="item122"></a>
+#### Producto Rating Service
+Aquí en este archivo se maneja la logica del funcionamiento de negocio de la verificación si el producto ya se valoro "rating"
