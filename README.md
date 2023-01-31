@@ -774,19 +774,24 @@ En esta carpeta podemos almacenar los código correspondiente de la publicidad d
 
 <a name="item159"></a>
 ## Soporte
+En esta carpeta es la base fundamental de sustento a mantener unas cosas programada en el marketplace donde tenemos dos carpetas llamada paginación, pipes, archivo File Uploads y soporte Module de nuestro marketplace.
 
  <dl>
   <dt name="item160">paginación</dt>
-  <dd></dd>
+  <dd>Aquí tenemos tres archivos, uno llamado paginación opcion, paginación pipes y aginación result. En el archivo paginación opción es el encargado de la parte del perPage, offset y el fromQueryObjeto de nuestro marketplace y el archivo paginación pipes es el encargado del pies de paginación y tambien tenemos por ultimo el archivo paginación de resultado.
   <dt name="item161">pipes</dt>
-  <dd></em>.</dd>
+  <dd>Aquí se encarga de almacenar el archivo plain instance pipe .ts donde se encarga de la tranformación de @Injectable de la clases del marketplace.
 </dl>
 
 <a name="item162"></a>
 #### File Uploads
+En este archivo es el encargado de la imagenes de nuestro marketplace ya que para manejar la carga de archivos, nest proporciona un Módulo integrado basado en el paquete de middleware multer para Express.
+
+Multer maneja los datos publicados en el multipart/form-dataformato, que se usa principalmente para cargar archivos a través de una POSTsolicitud HTTP. Este módulo es totalmente configurable y puede ajustar su comportamiento a los requisitos de su aplicación.
 
 <a name="item163"></a>
 #### Soporte Module
+En este archivo es la clases de programación orientada a objetos, que se observará en el module de usuario, clientes y admins recedida de un decorador @module, que es el que hace que la clase creada se comporte como un módulo de aplicaciones del marketplace.
 
 <a name="item164"></a>
 ## Tienda
