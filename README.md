@@ -832,77 +832,100 @@ En esta carpeta podemos almacenar los código correspondiente de la publicidad d
 
 <a name="item178"></a>
 ## Tópico
-
+En esta carpeta podemos almacenar todo lo relacionado con con tópico donde se relaciona un poco con la ayuda de nuestro marketplace.
  <dl>
   <dt name="item179">dto</dt>
-  <dd></dd>
+  <dd>En esta carpeta tenemos un archivo con extensión .dto.ts donde se encarga de almacenar los datos de las entidades relacionada con la tabla tópico relacionada con la ayuda de la transferencia de datos del marketplace.</dd>
   <dt name="item180">entities</dt>
-  <dd></dd>
+  <dd>Aqui es esta carpeta se encarga de guardar el tipo de recurso de campos con sus tipo de datos con el cual se esta trabajando en el marketplace.</dd>
  <dt name="item181">error</dt>
-  <dd></em>.</dd>
+  <dd>Aquí guardaremos en el archivo tópico not found exception que es el archivo encargado de mostrar un mensaje de validación si el tópico existe o no en el marketplace</em>.</dd>
 </dl>
 
 <a name="item182"></a>
 #### Tópico Controller
+Este controlador es el encargado de manejar las solicitudes entrantes donde devuelve las respuesta adecuada, ya que en el archivo definimos los campos para las solicitudes de todo lo relacionado con la parte del tópico con la ayuda del marketplace.
 
 <a name="item183"></a>
 #### Tópico Module
+Manejo de los decoradores de una lista de tópico en el marketplace, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de la tabla tópico relacionada con la ayuda. 
 
 <a name="item184"></a>
 #### Tópico Service
+Aquí en este archivo se maneja la lógica del funcionamiento de negocio de la verificación de las ayudas que tenga relación con el tópico seleccionado.
 
 <a name="item185"></a>
 ## Usuario
+En esta carpeta es la encargada de almacenar todos los archivos relacionado con usuario en el marketplace, ya que usuario es uno de los pilares más importantes en los sistemas en los que es requerido un modelo de usuarios, ya que la tabla usuario esta ligada al modulo de usuarios a las acciones de registro, login y aquellas otras tablas relacionada con esta.
 
+La tabla de usuarios es uno de los pilares mas importantes en los sistemas en los que es requerido un modulo de usuarios, esta tabla de usuarios esta ligada al modulo de usuarios, a las acciones de registro, login y aquellas otras tablas relacionadas.
  <dl>
   <dt name="item186">dto</dt>
-  <dd></dd>
+  <dd>En esta carpeta tenemos un archivo llamado con la extensión .dto.ts donde se encarga de almacenar la transferencia de datos de entrada de usuario y en el frontend la visualización de esos datos solicitado en la petición en el marketplace.</dd>
   <dt name="item187">entities</dt>
-  <dd></dd>
+  <dd>Aquí en esta carpeta se encarga de guardar el tipo de recurso con el cual se esta trabajando en el marketplace, que se asociará directamente con una tabla de una base de datos llamada usuario.</dd>
  <dt name="item188">enums</dt>
-  <dd></dd>
+  <dd>En esta carpeta tenemos dos archivos uno llamado role.enum.ts que es el encargado de la especificación de los roles en nuestro marketplace "cliente, admin y tienda", también tenemos un archivo llamado user-status-code.enum.ts que se encarga de especificar el estatus del usuario que son: "active, inactive y banned para los usuarios en el marketplace.</dd>
  <dt name="item189">error</dt>
-  <dd></em>.</dd>
+  <dd>Aquí guardaremos en el archivo usuario not found exception que es el archivo encargado de mostrar un mensaje de validación si el usuario existe o no en el marketplace</em>.</dd>
 </dl>
 
 <a name="item190"></a>
 #### Usuario Controller
+Este controlador es el encargado de manejar las solicitudes entrantes donde devuelve las respuesta adecuada, ya que en el archivo definimos los campos para las solicitudes de todo lo relacionado con la parte del usuario del marketplace.
 
 <a name="item191"></a>
 #### Usuario Module
+Este archivo es la clases de programación orientada a objetos, que se observará en el module de usuario precedida de un decorador @module, que es el que hace que la clase creada se comporte como un módulo de aplicaciones del marketplace.
 
 <a name="item192"></a>
 #### Usuario Service
+En este archivo se encarga de la lógica de negocio relacionada con la tabla de usuario, básicamente este decorador pérmite que este servicio se pueda enviar al constructor de los controladores que ofrece NestJS para el servicio de usuario en el marketplace.
 
 <a name="item193"></a>
 ## Usuario Status
+En este marketplace tenemos una carpeta llamada usuario status y a su vez una tabla para almacenar el estatus que esta definido en los controladores se se encuentra en la tabla usuario para verificar si el usuario esta o no activo en el marketplace.
 
  <dl>
   <dt name="item194">dto</dt>
-  <dd></dd>
+  <dd>En esta carpeta tenemos un archivo llamado con la extensión .dto.ts donde se encarga de almacenar la transferencia de datos de entrada del estado del usuario y en el frontend la visualización de esos datos solicitado en la petición en el marketplace. </dd>
   <dt name="item195">entities</dt>
-  <dd></dd>
+  <dd>En esta carpeta es la encargada de almacenar los campos definidos con su tipo de datos relacionado en ese archivo .entity.ts </dd>
  <dt name="item196">error</dt>
-  <dd></em>.</dd>
+  <dd>Aquí es esta carpeta tenemos el archivo de validacion de error si el estatus existe o no en el usuario</em>.</dd>
 </dl>
 
 <a name="item197"></a>
 #### Usuario Status Controller
+Este controlador es el encargado de manejar las solicitudes entrantes donde devuelve las respuesta adecuada, ya que en el archivo definimos los campos para las solicitudes de todo lo relacionado con la parte del estatus de usuario del marketplace.
 
 <a name="item198"></a>
 #### Usuario Status Module
+Este archivo es la clases de programación orientada a objetos, que se observará en el module del estatus de usuario precedida de un decorador @module, que es el que hace que la clase creada se comporte como un módulo de aplicaciones del marketplace.
 
 <a name="item199"></a>
 #### Usuario Status Service
+En este archivo se encarga de la lógica de negocio relacionada con la tabla de usuario status, básicamente este decorador pérmite que este servicio se pueda enviar al constructor de los controladores que ofrece NestJS para el servicio de usuario en el marketplace.
 
 <a name="item200"></a>
 ## Validación
+En esta carpeta se guarda la parte de la autenticación del sistema. JWT son las siglas de JSON Web Tokens. Básicamente, estos tokens son emitidos por el servidor después de la autenticación del usuario y pueden ser utilizados para otras solicitudes siempre que el token sea válido.
+
+El uso de JWT efectivamente puede hacer que nuestras aplicaciones sean apátridas desde el punto de vista de la autenticación.
+Vamos a utilizar la autenticación JWT de NestJS utilizando la estrategia local como base para esta aplicación. Así que voy a recomendar a ir a través de ese post y luego continuar con este.
 
 <a name="item201"></a>
 ## APP Controller Spec
+Aqui en Controller de aplicación es un parecido de Esa, de momento, es la única ruta que se podrá atender en nuestra aplicación.
+Otra cosa que vamos a destacar sobre este controlador es que usa un servicio llamado AppService. Este servicio está en otro archivo aparte que vamos a ver enseguida. Pero antes de ello queremos ver cómo este servicio es asociado al controlador.
 
 <a name="item202"></a>
 ## APP Controller
+Este es nuestro primer controlador de aplicación. Como quizás sepas de otros frameworks, los controladores son las piezas de software que se encargan de gestionar las solicitudes, realizando todo el trabajo necesario para gestionar el request y componer la respuesta.
+
+Como puedes ver, el controlador es una clase, en la que colocamos el decorador @Controller. En el código de la clase observarás que tenemos un método, precedido de otro decorador @Get, que es el que se encarga de gestionar una solicitud (request de tipo GET). Esa, de momento, es la única ruta que se podrá atender en nuestra aplicación.
+
+Otra cosa que vamos a destacar sobre este controlador es que usa un servicio llamado AppService. Este servicio está en otro archivo aparte que vamos a ver enseguida. Pero antes de ello queremos ver cómo este servicio es asociado al controlador.
 
 <a name="item203"></a>
 ## APP Module
