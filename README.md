@@ -795,45 +795,52 @@ En este archivo es la clases de programación orientada a objetos, que se observ
 
 <a name="item164"></a>
 ## Tienda
-
+En esta carpeta vamos a ejecutar y almacenar los datos correspondiente de las tienda cargada y registrada en el sistema de marketplace.
  <dl>
   <dt name="item165">dto</dt>
-  <dd></dd>
+  <dd>En esta carpeta donde podemos almacenar la trasferencia de datos entre la parte del backend de las tiendas registrada, para ontener la respuesta frontend en el marketplace.</dd>
   <dt name="item166">entities</dt>
-  <dd></dd>
+  <dd>En esta carpeta tenemos un archivo con extensión .entity.ts donde se tiene la entidad relacionada con el tipo de dato de cada campo que esta en la entidades de la tabla de la base de datos de tiendas.</dd>
  <dt name="item167">error</dt>
-  <dd></em>.</dd>
+  <dd>En esta carpeta obtenemos un archivo tienda not fount exception es para las validaciones de error si la tienda fue creado o no en el marketplace, quiere decir si existe o no</em>.</dd>
 </dl>
 
 <a name="item168"></a>
 #### Tienda Controller
+El controlador del método de tienda, es el encargado de la solicitudes de entrada y respuesta sobre las tiendas creadas en el marketplace.
 
 <a name="item169"></a>
 #### Tienda Module
+Aquí en este documento manejamos los decoradores de una lista de productos en el marketplace donde se almacena la tienda, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de la tabla tienda del marketplace.  
 
 <a name="item170"></a>
 #### Tienda Service
+En esta carpeta se maneja la lógica del funcionamiento de negocio de la verificación de la tienda regustrada en el marketplace.
 
 <a name="item171"></a>
-## Tienda
+## Tienda Rating
+En esta carpeta vamos a ejecutar y almacenar los datos correspondiente de las tienda rating "valoración de la tienda" encargada y registrada en el sistema de marketplace.
 
  <dl>
   <dt name="item172">dto</dt>
-  <dd></dd>
+  <dd>En esta carpeta donde podemos almacenar la trasferencia de datos entre la parte del backend de las tienda rating registrada, para ontener la respuesta frontend en el marketplace.</dd>
   <dt name="item173">entities</dt>
-  <dd></dd>
+  <dd>En esta carpeta tenemos un archivo con extensión .entity.ts donde se tiene la entidad relacionada con el tipo de dato de cada campo que esta en la entidades de la tabla de la base de datos de tiendas rating.</dd>
  <dt name="item174">error</dt>
-  <dd></em>.</dd>
+  <dd>En esta carpeta obtenemos un archivo tienda rating not fount exception es para las validaciones de error si la tienda fue creado o no en el marketplace, quiere decir si existe o no</em>.</dd>
 </dl>
 
 <a name="item175"></a>
-#### Tienda Controller
+#### Tienda Rating Controller
+Este controlador es el encargado de manejar las solicitudes entrantes donde devuelve las respuesta adecuada, ya que en el archivo definimos los campos para las solicitudes de todo lo relacionado con la parte de la tienda en el marketplace.
 
 <a name="item176"></a>
-#### Tienda Module
+#### Tienda Rating Module
+Aquí en este documento manejamos los decoradores de una lista de productos en el marketplace donde se almacena la valoración de producto, utilizado el manejo de los datos (JWT) que significa JSON Web Token, que se encarga de la verificación TOKE de la tabla producto rating. 
 
 <a name="item177"></a>
-#### Tienda Service
+#### Tienda Rating Service
+En esta carpeta se maneja la lógica del funcionamiento de negocio de la verificación de la tienda regustrada en el marketplace.
 
 <a name="item178"></a>
 ## Tópico
